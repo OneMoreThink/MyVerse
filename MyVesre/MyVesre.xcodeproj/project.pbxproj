@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AF4A140C2D05D86B002D1527 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AF4A140B2D05D86B002D1527 /* FirebaseAnalytics */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		AF4A13862D03E5EE002D1527 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4A140C2D05D86B002D1527 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = MyVesre;
 			packageProductDependencies = (
+				AF4A140B2D05D86B002D1527 /* FirebaseAnalytics */,
 			);
 			productName = MyVesre;
 			productReference = AF4A13752D03E5ED002D1527 /* MyVesre.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = AF4A136C2D03E5ED002D1527;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AF4A140A2D05D86B002D1527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AF4A13762D03E5ED002D1527 /* Products */;
 			projectDirPath = "";
@@ -568,6 +577,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF4A140A2D05D86B002D1527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF4A140B2D05D86B002D1527 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF4A140A2D05D86B002D1527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF4A136D2D03E5ED002D1527 /* Project object */;
 }
