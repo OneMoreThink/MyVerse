@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF4A140C2D05D86B002D1527 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AF4A140B2D05D86B002D1527 /* FirebaseAnalytics */; };
+		AF4A14BA2D07D372002D1527 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AF4A14B92D07D372002D1527 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF4A140C2D05D86B002D1527 /* FirebaseAnalytics in Frameworks */,
+				AF4A14BA2D07D372002D1527 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,7 @@
 				AF4A13772D03E5ED002D1527 /* MyVesre */,
 				AF4A13882D03E5EE002D1527 /* MyVesreTests */,
 				AF4A13922D03E5EE002D1527 /* MyVesreUITests */,
+				AF4A14B82D07D372002D1527 /* Frameworks */,
 				AF4A13762D03E5ED002D1527 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +98,13 @@
 				AF4A138F2D03E5EE002D1527 /* MyVesreUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4A14B82D07D372002D1527 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +128,7 @@
 			name = MyVesre;
 			packageProductDependencies = (
 				AF4A140B2D05D86B002D1527 /* FirebaseAnalytics */,
+				AF4A14B92D07D372002D1527 /* FirebaseAuth */,
 			);
 			productName = MyVesre;
 			productReference = AF4A13752D03E5ED002D1527 /* MyVesre.app */;
@@ -594,6 +605,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AF4A140A2D05D86B002D1527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
+		};
+		AF4A14B92D07D372002D1527 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF4A140A2D05D86B002D1527 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
